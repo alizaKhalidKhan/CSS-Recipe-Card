@@ -1,0 +1,91 @@
+*{
+    font-size: 22px;
+    font-family: 'Calibri';
+}
+body{
+    background-color: #c4a3d2;
+}
+.outer{
+    background-color: white;
+    width: 1000px;
+    height: 300px;
+    margin-left: 270px;
+    margin-top: 250px;
+    box-shadow: 1px 6px 28px black;
+}
+.inner{
+    background-image: url(./1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+}
+.inner-detail{
+    width: 700px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 330px;
+}
+.header h1{
+    margin-top: 30px;
+    color: rgb(77, 46, 115);
+    font-size: 38px;
+    line-height: 1;
+}
+.header img{
+    width: 120px;
+    position: fixed;
+    margin-top: -20px;
+}
+.header p{
+    font-size: 19.2px;
+    margin-top: 50px;
+}
+.table table .row .hands{
+    font-size: 21px;
+}
+.table table .row .total{
+    padding-left: 70px;
+    font-size: 21px;
+}
+.table table .row .yield{
+    padding-left: 70px;
+    font-size: 21px;
+}
+.table table .purple-row .purple-hands{
+    font-size: 21px;
+    color: rgb(77, 46, 115);
+    font-weight: bolder;
+}
+.table table .purple-row .purple-total{
+    padding-left: 70px;
+    font-size: 21px;
+    color: rgb(77, 46, 115);
+    font-weight: bolder;
+}
+.table table .purple-row .purple-yield{
+    padding-left: 70px;
+    font-size: 21px;
+    color: rgb(77, 46, 115);
+    font-weight: bolder;
+}
+button{
+    background-color: rgb(255, 143, 5);
+    border-color: rgb(255, 143, 5) ;
+    width: 240px;
+    height: 60px;
+    font-size: 25px;
+    color: white;
+    box-shadow: 0px 3px 10px black;
+    position: fixed;
+    margin-top: -70px;
+    margin-left: 780px;
+}
+button img{
+    width: 30px;
+    height: 20px;
+}
+button:hover{
+    background-color: orangered;
+    border-color: orangered;
+}
