@@ -85,7 +85,71 @@ button img{
     width: 30px;
     height: 20px;
 }
+button a{
+    text-decoration: none;
+    color: white;
+}
 button:hover{
     background-color: orangered;
     border-color: orangered;
+}
+/*Recipe.html css*/
+.div-outer{
+    margin-top: 30px;
+}
+.div-outer h1{
+    text-align: center;
+    font-size: 32px;
+    color: rgb(77, 46, 115);
+    font-weight: bolder;
+}
+.div-inner{
+    background-color: white;
+    width: 600px;
+    height: 650px;
+    margin-left: 40px;
+    border-radius: 20px;
+    box-shadow: 3px 8px 8px gray;
+}
+.div-inner h2{
+    margin-left: 30px;
+    color: rgb(77, 46, 115);
+    font-size: 25px;
+    transform: translateY(50%);
+    text-decoration: underline;
+    line-height: 2;
+}
+.div-inner ul li{
+    line-height: 1.6;
+    list-style-type: square;
+    font-size: 20px;
+}
+.method-div{
+    background-color: white;
+    width: 800px;
+    height: 650px;
+    margin-left: 700px;
+    border-radius: 20px;
+    box-shadow: 3px 8px 8px gray;
+    position: fixed;
+    margin-top: -650px;
+}
+.method-div h2{
+    margin-left: 30px;
+    color: rgb(77, 46, 115);
+    font-size: 25px;
+    transform: translateY(40%);
+    text-decoration: underline;
+}
+.method-div ol li{
+    line-height: 1.5;
+    font-size: 20px;
+    margin-right: 40px;
+}
+.method-div:hover, .div-inner:hover{
+    background-color: rgb(79, 5, 79);
+    color: white;
+}
+.method-div:hover h2, .div-inner:hover h2{
+    color: white;
 }
